@@ -1,0 +1,52 @@
+h1.page_title {
+    text-align: center;
+    /* margin-left: 500px; */
+}
+
+a:link.menu {
+    font-size: 125%;
+    color:black
+}
+
+a:visited.menu {
+    color:blue;
+}
+
+ul.page_header {
+    text-align: center;
+    /* margin-left: 500px; */
+}
+
+li.h_menu {
+    display:inline-block;
+    margin-right: 20px;
+}
+
+.top {
+    --offset: 50px; 
+
+    position: sticky;
+    bottom: 20px;      
+    margin-right: 10px; 
+    place-self: end;
+    margin-top: calc(100vh + var(--offset));
+  
+    /* visual styling */
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    color: #fff;
+    background: #000;
+    border-radius: 100px;
+    white-space: nowrap;
+  }
+
+body {
+    display: grid;
+    /* grid-template-columns: auto auto; */
+}
+
+p {
+    font-size: 25px;
+  }
+

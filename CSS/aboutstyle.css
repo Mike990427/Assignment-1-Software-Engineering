@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+}
+
+h2.our_team {
+    font-size: 200%;
+}
+
+a:link.menu {
+    font-size: 125%;
+    color:black
+}
+
+a:visited.menu {
+    color:blue;
+}
+
+ul {
+    text-align: center;
+}
+
+li.h_menu {
+    display:inline-block;
+    margin-right: 20px;
+}
+
+tr.photo_name{
+    font-size: 125%;
+}
+
+tr.name_description {
+    font-size: 125%;
+}
+
+table.top_table {
+    margin-bottom: 50px;
+    border: 3px solid;
+    border-color: purple;
+}
+
+table.map_table {
+
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid;
+    border-color: purple;
+    padding: 10px;
+
+}
+
+td.map_cell {
+    width: 60%;
+}
