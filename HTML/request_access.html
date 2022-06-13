@@ -8,7 +8,7 @@
     <meta http-equiv="author" content="Alex Wu&Mike Wu&Dhrup Patel" />
     <meta http-equiv="pragma" content="no-cache" />
     <title>Request Access</title>
-    <link href="../css/req_acc.css" type="text/css" rel="stylesheet" />
+    <link href="../CSS/req_acc.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
     <h1>Request Access</h1>
@@ -28,11 +28,38 @@
         <fieldset>
             <legend>Contact details</legend>
             <br><br>
-            <p>First name: <input type="text" name="firstname"></p>
-            <p>Last name: <input type="text" name="lastname"></p>
-            <p>Email: <input type="email" name="email"></p>
-            <p>Birthdate: <input type="date" name="birthdate"></p>
-            <p>Website: <input type="url" name="url"></p>
+            <div>
+                <label for="fname" class="text_label" >First Name:</label>
+                <input id="fname" class="text_input" type="text" name="firstname"  /> 
+            </div>
+            <div>
+                <label for="lname" class="text_label">Last Name:</label>  
+                <input id="lname" class="text_input" type="text" name="lastname"  /> 
+            </div>
+            <div>
+                <label for="email" class="text_label">Email:</label>     
+                <input id="email" class="text_input" type="email" name="email" /> 
+            </div>
+            <div>
+                <label for="password" class="text_label">Password:</label>
+                <input id="password" class="text_input" type="password" name="password" />
+            </div>
+            <div>
+                <label for="website" class="text_label">Website:</label>    
+                <input id="website" class="text_input" type="url" name="url" /> 
+            </div>
+            <div>
+                <label for="bdate" class="text_label">Birth date:</label> 
+                <input id="bdate" class="text_input" type="date" name="birthday" /> 
+            </div>
+            
+            <div>
+                <span class="text_label">Request type:</span>
+                <input id="faculty" type="radio" name="fac_or_student" value="faculty" /> 
+                <label for="faculty">Faculty</label>
+                <input id="student" type="radio" name="fac_or_student" value="student" /> 
+                <label for="student">Student</label><br />
+            </div>
             <br><br>
         </fieldset>
 
