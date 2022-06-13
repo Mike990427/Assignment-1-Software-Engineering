@@ -54,7 +54,23 @@
 
 
     
-    <p>Still under construction, pleace come back for more</p> 
+    <p>Still under construction, pleace come back for more <br>
+        Current time is: <span id='time'></span>
+    </p>
+
+    <p id='info'>This page shows Date() Object Example Code</p>
+    <footer id='foot'>Hello</footer>
+    <script src="../JS/dateObjectModel.js"></script>
+    <script>
+        function refreshTime() {
+            const timeDisplay = document.getElementById("time");
+            const dateString = new Date().toLocaleString();
+            const formattedString = dateString.replace(", ", " - ");
+            timeDisplay.textContent = formattedString;
+}
+        setInterval(refreshTime, 1000);
+        
+    </script> 
     <p>
         Send an email 
         <a href="mailto:Xwu0580@conestogac.on.ca?Subject=Contact%20for%20project%20website" target="_top">
