@@ -1,6 +1,6 @@
 // Event listeners WITH PARAMETERS using ANONYMOUS FUNCTION
-var elUsername = document.getElementById('username');
-var elUserpassword = document.getElementById('password');							
+var elUsername = document.getElementById('user');
+var elUserpassword = document.getElementById('pass');							
 var elMsg = document.getElementById('feedback'); 
 
 function checklength(minLength) {
